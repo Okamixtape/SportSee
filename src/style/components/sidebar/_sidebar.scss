@@ -1,0 +1,23 @@
+.sidebar {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100px;
+    background: $c-light-black;
+    margin-top: -97px;
+
+    .sidebar__navbarListAnchor {
+        color: $c-white;
+    }
+    .sidebar__copyright {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 24px;
+        transform: rotate(-90deg);
+        color: $c-white;
+        width: max-content;
+    }
+}

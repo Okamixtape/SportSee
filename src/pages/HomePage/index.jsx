@@ -1,16 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 import Header from "../../components/Header";
-import Footer from "../../components/Footer";
+import Sidebar from "../../components/Sidebar";
 
-export class HomePage extends Component {
-  render() {
-    return (
-      <div className="sportSee__wrapper">
-        <Header />
-        <Footer />
-      </div>
-    );
-  }
+export default function HomePage () {
+  return (
+    <div className="sportSee__wrapper">
+      <Header />
+      <Sidebar />
+    </div>
+  );
 }
-
-export default HomePage;
