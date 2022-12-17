@@ -3,15 +3,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 100vh;
     width: 100px;
     background: $c-light-black;
     margin-top: -97px;
-
-    .sidebar__navbarListAnchor {
-        color: $c-white;
+    
+    .sidebar__navbarListItem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 64px;
+        height: 64px;
+        background: $c-white;
+        border-radius: 6px;
+        margin-top: 20px;
     }
+
     .sidebar__copyright {
         font-weight: 500;
         font-size: 12px;

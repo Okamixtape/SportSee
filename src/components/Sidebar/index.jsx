@@ -14,7 +14,7 @@ export default function Sidebar () {
                 <ul className="sidebar__navbarList">
                     {iconArray.map((icon) => {
                         return (
-                        <li className="sidebar__navbarListItem">
+                        <li className="sidebar__navbarListItem" key={`item-${icon}`}>
                             <NavLink className="sidebar__navbarListAnchor" to="#" key={`navlink-${icon}`}>
                                 <Icon className="sidebar__navbarListIcon" src={icon} key={`icon-${icon}`} />
                             </NavLink>
